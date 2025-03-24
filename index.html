@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+
+    <div class="controls">
+        <input type="number" id="grid-size" min="2" max="64" value="16">
+        <button id="set-grid">Set Grid</button>
+        <button id="clear-grid">Clear</button>
+    </div>
+
+    <div class="color-options">
+        <input type="radio" name="color" id="black" checked>
+        <label for="black">Black</label>
+        
+        <input type="radio" name="color" id="red">
+        <label for="red">Red</label>
+        
+        <input type="radio" name="color" id="blue">
+        <label for="blue">Blue</label>
+        
+        <input type="radio" name="color" id="rainbow">
+        <label for="rainbow">Rainbow</label>
+        
+        <input type="radio" name="color" id="eraser">
+        <label for="eraser">Eraser</label>
+    </div>
+
+    <div id="grid-container"></div>
+
+    <footer class="footer">
+        Copyright © 2025 Dhanajayan-04
+        <a href="https://github.com/Dhanajayan-04/odin-etch-a-sketch" target="_blank">
+        <span>
+            <img src="images/github-logo.png" alt="GitHub">
+        </span>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
