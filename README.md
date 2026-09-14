@@ -13,7 +13,7 @@ odin-etch-a-sketch is a simple web-based drawing application that allows users t
 
 - Create a customizable canvas with a grid of squares.
 - Draw on the canvas by choosing the number of the grid.
-- Choose the canvas size.
+- Choose the canvas size by changing the number.
 - Clear the canvas to start over.
 
 ## Usage
@@ -35,4 +35,4 @@ To work on this project locally or further customize it, follow these steps:
 
 ## Acknowledgments
 - This project was created as part of The Odin Project's Foundation Course.
-- Special thanks to the open-source community for providing resources and inspiration.
+- Special thanks to the open-source community for providing the resources and inspiration.
