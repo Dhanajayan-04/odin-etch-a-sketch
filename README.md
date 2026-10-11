@@ -26,7 +26,7 @@ To use this odin-etch-a-sketch application, follow these steps:
 
 ## Development
 
-To work on this project locally or further customize it, follow these steps:
+To work on this project locally or further customize it, and follow these steps:
 
 1. Clone this repository:
 
